@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ESNext",
+        "lib": ["ES2022", "DOM"],
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "strictPropertyInitialization": false,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"]
+}

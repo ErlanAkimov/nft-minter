@@ -1,0 +1,22 @@
+{
+	"name": "minter_home_cli",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@ton/crypto": "^3.3.0",
+		"@ton/ton": "^15.2.1",
+		"@types/node": "^22.13.5",
+		"axios": "^1.8.1",
+		"dotenv": "^16.4.7",
+		"nodemon": "^3.1.9",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	}
+}
